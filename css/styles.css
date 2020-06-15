@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;
 }
 
 body {
@@ -23,11 +27,16 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  height: 70px;
+  height: 60px;
 }
 
 .narration__info {
+  height: 100%;
+  padding: 5px 0;
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .narration:not(:last-child) {
@@ -35,6 +44,7 @@ body {
 }
 
 .narration_info--game {
+  margin-bottom: 7px;
   font-weight: bold;
 }
 
