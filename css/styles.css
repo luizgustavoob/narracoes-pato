@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  min-width: 550px;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 8px;
+}
+
+.view {
+  width: 100%;
+  height: auto;
+}
+
+.narration {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.narration__info {
+  width: 50%;
+}
+
+.narration:not(:last-child) {
+  border-bottom: 1px solid black;
+}
+
+.narration_info--game {
+  font-weight: bold;
+}
+
+.narration__audio {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.narration__audio audio {
+  align-items: center;
+  justify-content: center;
+}
+
+.narration__play {
+  margin-right: 15px;  
+}
+
+.narration__play--button {
+  border-radius: 5px;
+  background: #0000FF;
+  border: 1px solid #0000FF;
+  height: 32px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.narration__play--icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.narration__progress {
+  background-color: #5c5970;
+  border: 1px solid #5c5970;
+  height: 3px;
+  width: calc(100% - 45px);
+  position: relative;
+}
+
+.narration__progress--running {
+  background-color: #0000FF;
+  border-radius: 0 5px 5px 0;
+  height: 2px;
+  box-shadow: 0 0 10px 2px #0000FF;
+  position: relative;
+  transition: all 0.01s linear;
+}
+
+.narration__progress--running:after {
+  background-color: #0000FF;
+  content: '';
+  height: 10px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  border-radius: 20px;
+  transform: translate(0, -50%);
+  width: 10px;
+}

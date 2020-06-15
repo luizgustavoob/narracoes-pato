@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "version": "0.0.1",
+  "name": "Narrações Marcantes Pato Futsal",
+  "short_name": "Narrações Pato",
+  "description": "Extensão com algumas narrações marcantes do Pato Futsal de Salão",
+  "author": "Luiz Gustavo Bourscheit",
+  "icons": {
+    "16": "img/icon.ico",
+    "48": "img/icon-48.ico",
+    "128": "img/icon-128.ico"
+  },
+  "browser_action": {
+    "default_title": "Narrações Pato Futsal",
+    "default_popup": "index.html",
+    "default_icon": "img/icon.ico"
+  }  
+}
