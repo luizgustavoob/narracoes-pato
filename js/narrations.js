@@ -20,6 +20,11 @@ const narrations = [
     audio: 'audios/taca-brasil-dudu-prorrogacao-tempo-02.mp3'
   },
   {
+      game: 'Final LNF 2018 - Jogo 2',
+      goal: 'Hernandes - Pato 1x0 Atlântico (Prorrogação)',
+      audio: 'audios/lnf2018-final-hernandes-tempo-01-prorrogacao.mp3'
+  },
+  {
     game: 'Final LNF 2018 - Jogo 2',
     goal: 'Di Maria - Pato 2x1 Atlântico (Prorrogação)',
     audio: 'audios/lnf2018-final-di-maria-tempo-02-prorrogacao.mp3'
